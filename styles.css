@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+#level-title {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 4rem;
+  margin:  2%;
+  color: antiquewhite;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color:crimson;
+  opacity: 0.5;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow:rgba(0,0,0,0.35) 0px 5px 15px;
+  background-color: rgb(114, 210, 240);
+}
