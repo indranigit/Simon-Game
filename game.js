@@ -6,7 +6,7 @@ var userClickedPattern = [];  //this array will store the pattern in which user 
 var started = false;
 var level = 0;
 //this will take c are of any keypress within the document to start the game
-$(document).keypress(function() {
+$(document).on("click keypress",function() {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence(); 
